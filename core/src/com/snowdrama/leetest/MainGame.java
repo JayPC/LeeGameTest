@@ -11,7 +11,7 @@ public class MainGame extends Game {
 	public GameState game5;
 	@Override
 	public void create () {
-		GameState game = new GameState();
+		GameState game = new GameState(this);
 		this.setScreen(game);
 	}
 	
